@@ -1,0 +1,13 @@
+void vymen(int *p_x, int *p_y){ //všimneme si že funkce očekává jako své parametry dva ukazatele na int
+                                //nikoliv promenné typu int!
+int pom;   //pomocná vnitřní proměnná typu int
+           //slouží k dočasnému uložení hodnoty při výměne
+ 
+pom = *p_x;
+*p_x = *p_y;
+*p_y = pom;
+}
+//volání funkce je potom
+int i=10,j=20;
+vymen(&i,&j);
+//pozor NE vymen(i,j) ANI vymen(*i,*j) oboji je hrubou chybou

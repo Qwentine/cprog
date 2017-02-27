@@ -1,0 +1,14 @@
+﻿//multifile project example, manually
+
+//command to compile the project manually:
+
+user@machine$ gcc module1.c module2.c differnet_file.c main.c -o program.bin
+
+//stands for Unix/Linux compiler GCC 
+//by the above command we get binary executable file program.bin
+//run by:
+user@machine$ ./program.bin
+
+//the “project management” is done here simply by enumerating all the files which need to be included in compilation
+
+

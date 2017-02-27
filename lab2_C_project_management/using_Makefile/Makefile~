@@ -1,0 +1,14 @@
+program.bin: module1.o module2.o uplne_jiny_soubor.o main.o
+	gcc module1.o module2.o uplne_jiny_soubor.o main.o -o program.bin
+
+main.o: main.c
+	gcc main.c -c
+
+module1.o: module1.c
+	gcc module1.c -c
+
+module2.o: module2.c
+	gcc module2.c -c
+
+uplne_jiny_soubor.o: uplne_jiny_soubor.c
+	gcc uplne_jiny_soubor.c -c

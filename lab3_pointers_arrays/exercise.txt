@@ -1,0 +1,16 @@
+Write a simple program for matrix multiplication
+
+-Let the user enter the matrix dimmensions:
+4x4
+-than let the user enter the actual matrix line by line:
+1 2 3 4 <enter>
+5 6 7 8 <enter>
+9 10 11 12 <enter>
+13 14 15 16 <enter>
+
+-dont forget to test every input, if the input prooves wrong, let the use enter it again,.
+
+Matrix implementation:
+a) static (hardcoded maximal dimmension, dont forget to test the inputs)
+b) static, but VLA, if your compiler supports so
+c) dynamic
