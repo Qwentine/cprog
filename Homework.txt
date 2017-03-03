@@ -1,13 +1,13 @@
-Please send the sources(.zip archive if multiple files) to kucerj17@fel.cvut.cz.
+Please send the source(.zip archive if multiple files) to kucerj17@fel.cvut.cz.
 
 Homework #1
 
-Write a "multiplatform" program which shows the compiler and the operating system names. The program refuses to compile if no proper compiler found.
+Write a "multiplatform" program which shows the compiler and the operating system used to compile the program. The program refuses to compile if no known compiler found.
 
 Hints:
 Use the conditional compilation. 
 
-The code does not have to be too complex, just pick few compilers to demonstrate the principles, the one You use and at least one more. Be sure to include GCC.
+The code does not have to be too complex, just pick a few compilers/OSs to demonstrate the principles (the one You use and at least one more). Be sure to include GCC/Linux.
 
 Helpful links:
 https://sourceforge.net/p/predef/wiki/Home/
