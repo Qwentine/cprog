@@ -1,0 +1,15 @@
+Please send the sources(.zip archive if multiple files) to kucerj17@fel.cvut.cz.
+
+Homework #1
+
+Write a "multiplatform" program which shows the compiler and the operating system names. The program refuses to compile if no proper compiler found.
+
+Hints:
+Use the conditional compilation. 
+
+The code does not have to be too complex, just pick few compilers to demonstrate the principles, the one You use and at least one more. Be sure to include GCC.
+
+Helpful links:
+https://sourceforge.net/p/predef/wiki/Home/
+http://nadeausoftware.com/articles/2012/10/c_c_tip_how_detect_compiler_name_and_version_using_compiler_predefined_macros
+
