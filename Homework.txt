@@ -13,3 +13,14 @@ Helpful links:
 https://sourceforge.net/p/predef/wiki/Home/
 http://nadeausoftware.com/articles/2012/10/c_c_tip_how_detect_compiler_name_and_version_using_compiler_predefined_macros
 
+
+Homework #2
+
+Write a program which computes the the volume and surface of some basic geometrical objects(cube, sphere, cylinder). Separate the source into several .c/.h files one for each object.
+
+Hints:
+Do not bother with entering the data by user. The dimensions can be hard-coded, but use a separate header file for it.
+Do the upper using at least two of following methods:
+ 1. Manual compile command
+ 2. make+Makefile
+ 3. Your favourite IDE
