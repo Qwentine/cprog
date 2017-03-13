@@ -15,7 +15,7 @@ dividing the code to multiple files/headers example
 
 #include "module1.h"
 #include "module2.h"
-
+extern float function_from_module1_2(int param);
 //now we can use the functions from above headers
 // the compiler knows the prototypes
 // it is simply the same as if the prototypes were written here by hand

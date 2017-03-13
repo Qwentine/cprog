@@ -11,6 +11,7 @@ the goal is to provide the function prototypes of all functions from this header
   #define MY_COOL_CONSTANT 1000
 
  //the prototypes
-  extern int function_from_module1_1(int param);  
+  extern int function_from_module1_1(int param); 
+//this  
   extern int function_from_module1_2(int param);
 #endif
