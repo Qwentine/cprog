@@ -24,3 +24,19 @@ Do the upper using at least two of following methods:
  1. Manual compile command
  2. make+Makefile
  3. Your favourite IDE
+
+Homework #3
+
+(1)
+Write a function:
+
+**int SumArrays(int **arr1,int **arr2,  int dim1,int dim2)
+
+the function takes two arrays(by references) of integers(+ their dimmensions) and creates one new dynamic array which will contain the summation of those arrays. Write a simple progtram to demonstrate the work of the function.
+
+(2)
+Create a structure named "PointInSpace" able to hold coordinates of one point in three dimmensional space. Write a function that will be able to move that point in space (by given x,z,y).
+
+write the function:
+1- that will take the point(structure) by value and retunrn the structure of same type
+2- that will take the point by reference and put the result in the original point  
