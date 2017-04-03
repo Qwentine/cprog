@@ -30,9 +30,9 @@ Homework #3
 (1)
 Write a function:
 
-**int SumArrays(int **arr1,int **arr2,  int dim1,int dim2)
+*int SumArrays(int *arr1,int *arr2,  int dim1,int dim2)
 
-the function takes two arrays(by references) of integers(+ their dimmensions) and creates one new dynamic array which will contain the summation of those arrays. Write a simple progtram to demonstrate the work of the function.
+the function takes two arrays(by references) of integers(+ their dimmensions) and creates one new dynamic array which will contain the summation of those arrays. Write a simple program to demonstrate the work of the function.
 
 (2)
 Create a structure named "PointInSpace" able to hold coordinates of one point in three dimmensional space. Write a function that will be able to move that point in space (by given x,z,y).
