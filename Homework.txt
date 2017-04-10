@@ -40,3 +40,19 @@ Create a structure named "PointInSpace" able to hold coordinates of one point in
 write the function:
 1- that will take the point(structure) by value and retunrn the structure of same type
 2- that will take the point by reference and put the result in the original point  
+
+Homework #4
+
+Write a function that converts a string containing an imaginary number (ie. "5+3i") into a structure (IMAG). The function returns a pointer to a new dynamically allocated structure on success or NULL if the conversion has failed.
+
+typedef struct
+{
+float re;
+float im;
+}IMAG;
+
+Write a function that returns the sum of two IMAGINARY structures.
+
+Write a program that lets the user enter two imaginary numbers (one by line) and computes their sum (demonstrating the use of upper functions).
+
+
