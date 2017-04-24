@@ -55,4 +55,15 @@ Write a function that returns the sum of two IMAGINARY structures.
 
 Write a program that lets the user enter two imaginary numbers (one by line) and computes their sum (demonstrating the use of upper functions).
 
+Homework #5
+
+-define a structure named "POLY" which represents a polynomial a*x^2 + b*x +c
+-write a function:
+ POLY* StrToPoly(char* input)
+ the function reads the given sting and tries to convert it into a dynamically allocated POLY structure, returns NULL if fails. Try to make the conversion as universal and bulletproof as possible (3x^2+2x+5; 3 x ^ 2 + 2 x + 5; 3*x^2+2*x+5, 3*x^2-2*x - 5; etc. are all valid polynomial inputs )
+-write a function:
+ float IntegralOfPol(POLY poly, float dimA, float dimB)
+ which returns a definite integral of given polynomial at given dimensions
+-write a program that lets the user enter a polynomial/dimensions and returns the definite integral. The user is asked for a new input if the input conversion fails.
+
 
