@@ -67,3 +67,9 @@ Homework #5
 -write a program that lets the user enter a polynomial/dimensions and returns the definite integral. The user is asked for a new input if the input conversion fails.
 
 
+Homework #6
+Write a function that sorts (ascending) the linked list from lab5 (see the github). The three fastest (in terms of computation) solutions grant their authors an excellent test mark with no need to write the final test at all.
+
+Requirements:
+- Any working solution is acceptable as homework but for "no test challenge" only those which do not require any supplemental memory (ie. side copy of whole list as an array of int, etc) will be accepted.
+- In case of same or similar solutions the one which was submitted earlier counts.
