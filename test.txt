@@ -1,0 +1,7 @@
+//test
+
+1) Write a program where the user can enter random input line by line. After every entered line the program counts the number of upper and lower letters, writes result to the screen and lets the user continue his entering. The program ends on an empty newline entered.
+
+2) Write a program where user can enter random real numbers, one number per line. The entering ends if empty line input is detected. Program tries to make the rectangle matrix of maximum possible dimension out of the entered numbers (may omit the overabundant numbers ). Finally the program counts and prints the sum of the main diagonal upper members .
+ 
+3)Write a function that converts a linked list from the last exercise to the bidirectional list.
